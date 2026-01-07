@@ -33,6 +33,7 @@
       width: 200px;
       margin-top: 0px;
       margin-bottom: 0px;
+      transform: translateY(35px);
     }
 
     h1 {
