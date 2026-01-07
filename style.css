@@ -5,16 +5,26 @@
 
     body {
       height: 100vh;
-      background: url(anu.jpg) no-repeat right / cover;
+      background: url(anu.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
       padding: 50px 5%;
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
     .container {
       width: 100%;
-      max-width: 420px;
+      max-width: 100%;
       padding: 24px;
       text-align: center;
     }
@@ -94,3 +104,13 @@
       font-size: 13px;
       color: #6b5a50;
     }
+
+    @media (max-width: 768px) {
+  body {
+    background-position: center;
+  }
+
+  .container {
+    padding: 16px;
+  }
+}
