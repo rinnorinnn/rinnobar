@@ -4,14 +4,12 @@
     }
 
     body {
-      height: 100vh;
-      background: url(anu.jpg);
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      padding: 50px 5%;
-      display: flex;
-      justify-content: center;
+     background-color: #2f8f7a;
+     background-image: url("id card depan.jpg");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     min-height: 100vh;
     }
 
     html, body {
